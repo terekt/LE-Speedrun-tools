@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <script type="module" src="./scripts/script.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Last Epoch Speedrunning tool's</h1>
+    </header>
+    <div class="container">
+        <h2>Filters</h2>
+        <div class="filter-container">
+            <div class="area">
+                <h3>Area level :</h3>
+                <input type="text" placeholder="100" id="level">
+            </div>
+            <div class="affix">
+                <h3>Which type of affix ?</h3>
+                <div class="prefix">
+                    <input type="checkbox" id="prefix-checkbox" name="prefix-checkbox" checked>
+                    <label for="prefix-checkbox">Prefix</label>
+                </div>
+                <div class="suffix">
+                    <input type="checkbox" id="suffix-checkbox" name="suffix-checkbox" checked>
+                    <label for="suffix-checkbox">Suffix</label>
+                </div>
+            </div>
+            <div class="preset">
+                <h3>Select a campaign presets :</h3>
+                <div class="ruined">
+                    <input type="radio" class="ruined-radio" name="presets">
+                    <label for="ruined-radio">Ruined Era</label>
+                </div>
+                <div class="zerrick">
+                    <input type="radio" class="zerrick-radio" name="presets">
+                    <label for="zerrick-radio">Zerrick</label>
+                </div>
+                <div class="frosroot">
+                    <input type="radio" class="frosroot-radio" name="presets">
+                    <label for="frosroot-radio">Frosroot Warden</label>
+                </div>
+                <div class="majasa">
+                    <input type="radio" class="majasa-radio" name="presets">
+                    <label for="majasa-radio">Majasa</label>
+                </div>
+                <div class="lvl100">
+                    <input type="radio" class="lvl100-radio" name="presets" checked>
+                    <label for="lvl100-radio">Lvl 100</label>
+                </div>
+            </div>
+        </div>
+        <h2>Results</h2>
+        <div id="resultsList">
+            <div id="results"></div>
+        </div>
+    </div>
+    <footer>
+        <p>Made by Terek</p>
+    </footer>
+</body>
+
+</html>
