@@ -1,69 +1,84 @@
 import { suffix } from "../data/suffix.js";
 
-
 var level = document.querySelector('#level');
-var suffixButton = document.getElementById("suffix-checkbox");
-var levelInput = null;
-
+var suffixButton = document.querySelector("input[name=suffix-checkbox]");
+var levelInput = 100;
 var root = document.getElementById("results");
+var radio = document.getElementsByName("presets");
 
-
-level.addEventListener('input', updateLevel);
-
-
-initialResults()
-
-/* initial result */
-function initialResults() {
-    var self = suffix.filter(o => o.tag === "Self").length;
-    var minion = suffix.filter(o => o.tag === "Minion").length;
-    var minionself = suffix.filter(o => o.tag === "Minion & Self").length;
-
-    var selfDiv = document.createElement("div");
-    selfDiv.classList.add("affixResult");
-    var selfContent = document.createTextNode('Number of affixes for self : ' + self);
-    selfDiv.appendChild(selfContent);
-    root.parentNode.insertBefore(selfDiv, root);
-
-    var minionDiv = document.createElement("div");
-    minionDiv.classList.add("affixResult");
-    var minionContent = document.createTextNode('Number of affixes for minions : ' + minion);
-    minionDiv.appendChild(minionContent);
-    root.parentNode.insertBefore(minionDiv, root);
-
-    var minionselfDiv = document.createElement("div");
-    minionselfDiv.classList.add("affixResult");
-    var minionselfContent = document.createTextNode('Number of affixes for minions & self : ' + minionself);
-    minionselfDiv.appendChild(minionselfContent);
-    root.parentNode.insertBefore(minionselfDiv, root);
-
-}
-
-
-
-
+var suffixEnable = true;
 
 /*Sorting the data by level */
 suffix.sort(function (a, b) {
     return a.level - b.level;
 });
 
-function updateLevel(e) {
-    console.log(document.querySelector('#level').value)
-    levelInput = parseInt(e.target.value);
-    Result();
+var suffixBuffer = suffix;
+
+/* Show stats at lvl 100 when loading page */
+Result(100);
+
+
+/* Event listener */
+level.addEventListener('input', levelChanged);
+suffixButton.addEventListener('change', function () {
+    if (this.checked) {
+        console.log("checked")
+        suffixEnable = true;
+        Result(levelInput);
+    } else {
+        console.log("unchecked")
+        suffixEnable = false;
+        initCharts(0, 0, 0, 1);
+    }
+});
+
+/* Radio button event */
+for (var i = 0; i < radio.length; i++) {
+    radio[i].addEventListener('change', function () {
+        level.value = ""; // Reset level input value
+        if (this.className == "ruined-radio") {
+            Result(19);
+        }
+        if (this.className == "zerrick-radio") {
+            Result(23);
+        }
+        if (this.className == "frostroot-radio") {
+            Result(34);
+        }
+        if (this.className == "majasa-radio") {
+            Result(40);
+        }
+        if (this.className == "lvl100-radio") {
+            Result(100);
+        }
+    });
 }
 
-function Result() {
-    if (levelInput > 0) {
-        /* Clear affix result */
-        clear()
+// Manage Values in Area level & reset radio buttons
+function levelChanged(e) {
+    console.log((/^[0-9]*$/).test(e.target.value));
+    if ((/^[0-9]*$/).test(e.target.value) == true) {
+        levelInput = parseInt(e.target.value);
+    } else {
+        levelInput = ""
+    }
+
+    for (var i = 0, max = radio.length; i < max; i++) {
+        radio[i].checked = false;
+    }
+    Result(levelInput);
+}
+
+// Update the data
+function Result(levelInput) {
+    if (levelInput > 0 && suffixEnable == true) {
 
         /* Sort and print results */
         console.log("///////////////////////////////");
         console.log("Area lvl : " + levelInput);
         console.log("///////////////////////////////");
-        var sort = suffix.filter(o => o.level <= levelInput);
+        var sort = suffixBuffer.filter(o => o.level <= levelInput);
         var self = sort.filter(o => o.tag === "Self").length;
         console.log("Self = " + self);
         var minion = sort.filter(o => o.tag === "Minion").length;
@@ -71,40 +86,29 @@ function Result() {
         var minionself = sort.filter(o => o.tag === "Minion & Self").length;
         console.log("Minion & Self = " + minionself);
 
-        /* insert results */
-        var selfDiv = document.createElement("div");
-        selfDiv.classList.add("affixResult");
-        var selfContent = document.createTextNode('Number of affixes for self : ' + self);
-        selfDiv.appendChild(selfContent);
-        root.parentNode.insertBefore(selfDiv, root);
-
-        var minionDiv = document.createElement("div");
-        minionDiv.classList.add("affixResult");
-        var minionContent = document.createTextNode('Number of affixes for minions : ' + minion);
-        minionDiv.appendChild(minionContent);
-        root.parentNode.insertBefore(minionDiv, root);
-
-        var minionselfDiv = document.createElement("div");
-        minionselfDiv.classList.add("affixResult");
-        var minionselfContent = document.createTextNode('Number of affixes for minions & self : ' + minionself);
-        minionselfDiv.appendChild(minionselfContent);
-        root.parentNode.insertBefore(minionselfDiv, root);
-
-        /*for (let x = 0 ; x < sort.length ; x++) {
-            console.log(sort[x].level);
-        }*/
-        //var result = suffix;
+        initCharts(self, minion, minionself, sort.length);
 
     } else {
         console.log("Nothing in input")
-        clear()
-        initialResults();
+        initCharts(0, 0, 0, 1);
     }
 }
 
-function clear() {
-    const elements = document.getElementsByClassName("affixResult");
-    while (elements.length > 0) {
-        elements[0].parentNode.removeChild(elements[0]);
-    }
+// Render Pie Chart
+function initCharts(self, minion, minionself, sort) {
+
+    var chart = new CanvasJS.Chart("chartContainer", {
+        data: [{
+            type: "pie",
+            startAngle: 240,
+            yValueFormatString: "#.##%",
+            indexLabel: "{label} {y}",
+            dataPoints: [
+                { y: self / sort, label: "Self" },
+                { y: minion / sort, label: "Minion" },
+                { y: minionself / sort, label: "Minion & Self" }
+            ]
+        }]
+    });
+    chart.render();
 }

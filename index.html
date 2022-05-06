@@ -22,12 +22,12 @@
         <div class="filter-container">
             <div class="area">
                 <h3>Area level :</h3>
-                <input type="text" placeholder="100" id="level">
+                <input type="text" placeholder="" id="level">
             </div>
             <div class="affix">
                 <h3>Which type of affix ?</h3>
                 <div class="prefix">
-                    <input type="checkbox" id="prefix-checkbox" name="prefix-checkbox" checked>
+                    <input type="checkbox" id="prefix-checkbox" name="prefix-checkbox" disabled>
                     <label for="prefix-checkbox">Prefix</label>
                 </div>
                 <div class="suffix">
@@ -39,19 +39,19 @@
                 <h3>Select a campaign presets :</h3>
                 <div class="ruined">
                     <input type="radio" class="ruined-radio" name="presets">
-                    <label for="ruined-radio">Ruined Era</label>
+                    <label for="ruined-radio">Ruined Era (lvl 19)</label>
                 </div>
                 <div class="zerrick">
                     <input type="radio" class="zerrick-radio" name="presets">
-                    <label for="zerrick-radio">Zerrick</label>
+                    <label for="zerrick-radio">Zerrick (lvl 23)</label>
                 </div>
                 <div class="frosroot">
-                    <input type="radio" class="frosroot-radio" name="presets">
-                    <label for="frosroot-radio">Frosroot Warden</label>
+                    <input type="radio" class="frostroot-radio" name="presets">
+                    <label for="frostroot-radio">Frostroot Warden (lvl 34)</label>
                 </div>
                 <div class="majasa">
                     <input type="radio" class="majasa-radio" name="presets">
-                    <label for="majasa-radio">Majasa</label>
+                    <label for="majasa-radio">Majasa (lvl 40)</label>
                 </div>
                 <div class="lvl100">
                     <input type="radio" class="lvl100-radio" name="presets" checked>
@@ -61,7 +61,10 @@
         </div>
         <h2>Results</h2>
         <div id="resultsList">
-            <div id="results"></div>
+            <div id="results">
+                <div id="chartContainer"></div>
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+            </div>
         </div>
     </div>
     <footer>
