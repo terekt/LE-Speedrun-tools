@@ -144,7 +144,6 @@ function Result(levelInput) {
 
 // Render Pie Chart
 function initCharts(self, minion, minionself, totem, sort) {
-
     
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
