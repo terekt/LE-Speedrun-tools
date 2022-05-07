@@ -4,12 +4,16 @@ import { prefix } from "../data/prefix.js";
 var level = document.querySelector('#level');
 var suffixButton = document.querySelector("input[name=suffix-checkbox]");
 var prefixButton = document.querySelector("input[name=prefix-checkbox]");
+var idolsButton = document.querySelector("input[name=idols-checkbox]");
+var equipmentButton = document.querySelector("input[name=equipment-checkbox]");
 var levelInput = 100;
 var root = document.getElementById("results");
 var radio = document.getElementsByName("presets");
 
 var suffixEnable = true;
 var prefixEnable = true;
+var idolsEnable = true;
+var equipmentEnable = true;
 
 /*Sorting the data by level */
 suffix.sort(function (a, b) {
@@ -32,11 +36,9 @@ Result(100);
 level.addEventListener('input', levelChanged);
 suffixButton.addEventListener('change', function () {
     if (this.checked) {
-        console.log("checked")
         suffixEnable = true;
         Result(levelInput);
     } else {
-        console.log("unchecked")
         suffixEnable = false;
         Result(levelInput);
     }
@@ -44,12 +46,30 @@ suffixButton.addEventListener('change', function () {
 
 prefixButton.addEventListener('change', function () {
     if (this.checked) {
-        console.log("checked")
         prefixEnable = true;
         Result(levelInput);
     } else {
-        console.log("unchecked")
         prefixEnable = false;
+        Result(levelInput);
+    }
+});
+
+idolsButton.addEventListener('change', function () {
+    if (this.checked) {
+        idolsEnable = true;
+        Result(levelInput);
+    } else {
+        idolsEnable = false;
+        Result(levelInput);
+    }
+});
+
+equipmentButton.addEventListener('change', function () {
+    if (this.checked) {
+        equipmentEnable = true;
+        Result(levelInput);
+    } else {
+        equipmentEnable = false;
         Result(levelInput);
     }
 });
@@ -102,12 +122,13 @@ function levelChanged(e) {
 
 // Update the data
 function Result(levelInput) {
-    if (levelInput > 0 && (suffixEnable == true || prefixEnable == true)) {
+    if (levelInput > 0 && (suffixEnable == true || prefixEnable == true) && (idolsEnable == true || equipmentEnable == true)) {
 
         /* Sort and print results */
         console.log("///////////////////////////////");
         console.log("Area lvl : " + levelInput);
         console.log("///////////////////////////////");
+
         if (suffixEnable == true) {
             var suffixSort = suffixBuffer.filter(o => o.level <= levelInput);
         }
@@ -122,9 +143,28 @@ function Result(levelInput) {
             var prefixSort = "";
             var sort = suffixSort.concat(prefixSort);
         }
-        console.log("Nbr of prefix = " + prefixSort.length);
-        console.log("Nbr of suffix = " + suffixSort.length);
+
+
+        if (idolsEnable == true) {
+            var idolSort = sort.filter(o => o.type == "Idols");
+        }
+        if (idolsEnable == false) {
+            var idolSort = "";
+        }
+        if (equipmentEnable == true) {
+            var equipmentSort = sort.filter(o => o.type == "Equipment");
+            var sort = equipmentSort.concat(idolSort);
+        }
+        if (equipmentEnable == false) {
+            var equipmentSort = "";
+            var sort = idolSort.concat(equipmentSort);
+        }
+
         console.log(sort)
+
+        console.log("Idol nbr = " + idolSort.length);
+        console.log("Equipment nbr = " + equipmentSort.length);
+
         var self = sort.filter(o => o.tag === "Self").length;
         console.log("Self = " + self);
         var minion = sort.filter(o => o.tag === "Minion").length;
@@ -135,6 +175,8 @@ function Result(levelInput) {
         console.log("Totem = " + totem);
 
         initCharts(self, minion, minionself, totem, sort.length);
+
+        
 
     } else {
         console.log("Nothing in input")
