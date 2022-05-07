@@ -15,7 +15,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "92%",
+        "chance": 92,
         "rarity": "(Very rare)"
     },
     {
@@ -28,7 +28,7 @@ export const prefix = [
             "text": "Abyssal Decay Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -41,7 +41,7 @@ export const prefix = [
             "text": "Adaptive Spell Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -54,7 +54,7 @@ export const prefix = [
             "text": "Adaptive Spell Damage for Storm Crow"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -67,7 +67,7 @@ export const prefix = [
             "text": "Adaptive Spell Damage While Channelling"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -80,7 +80,7 @@ export const prefix = [
             "text": "Adaptive Spell Damage With Tempest Strike"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -93,7 +93,7 @@ export const prefix = [
             "text": "Added Javelin Lightning Throwing Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -106,7 +106,7 @@ export const prefix = [
             "text": "Added lightning damage with Shurikens"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -119,7 +119,7 @@ export const prefix = [
             "text": "Added lightning damage with Shurikens"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -132,7 +132,7 @@ export const prefix = [
             "text": "Added Minion Melee Crit Chance"
         },
         "tag": "Minion",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -145,7 +145,7 @@ export const prefix = [
             "text": "Added Physical Throwing Damage while dual wielding"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -158,7 +158,7 @@ export const prefix = [
             "text": "Added Static Orb Tendrils"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -171,7 +171,7 @@ export const prefix = [
             "text": "Armor Granted By Bone Armor"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -184,7 +184,7 @@ export const prefix = [
             "text": "Armour"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -203,7 +203,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -216,7 +216,7 @@ export const prefix = [
             "text": "Armour Shred Chance for Locusts"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -232,7 +232,7 @@ export const prefix = [
             "text": "Attunement"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -245,7 +245,7 @@ export const prefix = [
             "text": "Bees Per 10 Seconds"
         },
         "tag": "Self",
-        "chance": "90%",
+        "chance": 90,
         "rarity": "(Very rare)"
     },
     {
@@ -264,7 +264,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
 
     },
@@ -284,7 +284,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -297,7 +297,7 @@ export const prefix = [
             "text": "Bleed Chance per Equipped Sword"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -310,7 +310,7 @@ export const prefix = [
             "text": "Bleed Chance per Equipped Sword"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -323,7 +323,7 @@ export const prefix = [
             "text": "Block Chance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -336,7 +336,7 @@ export const prefix = [
             "text": "Block Effectiveness"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -349,7 +349,7 @@ export const prefix = [
             "text": "Bow Attack Speed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -362,7 +362,7 @@ export const prefix = [
             "text": "Bow Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -375,7 +375,7 @@ export const prefix = [
             "text": "Bow Elemental Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -388,7 +388,7 @@ export const prefix = [
             "text": "Bow Elemental Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -401,7 +401,7 @@ export const prefix = [
             "text": "Bow Fire Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -414,7 +414,7 @@ export const prefix = [
             "text": "Bow Physical Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -427,7 +427,7 @@ export const prefix = [
             "text": "Bow Physical Damage for Ballistae"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -440,7 +440,7 @@ export const prefix = [
             "text": "Cast Speed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -453,7 +453,7 @@ export const prefix = [
             "text": "Cast Speed for Totems"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -466,7 +466,7 @@ export const prefix = [
             "text": "Cast Speed for Totems"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -479,7 +479,7 @@ export const prefix = [
             "text": "Chance For Additional Multistrike Swords"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -492,7 +492,7 @@ export const prefix = [
             "text": "Chance For Hungering Souls To Fire 6 Additional Projectiles"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -505,7 +505,7 @@ export const prefix = [
             "text": "Chance For Summon Wraith To Summon A Flame Wraith Instead"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -518,7 +518,7 @@ export const prefix = [
             "text": "Chance For Summon Wraith To Summon A Putrid Wraith Instead"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -531,7 +531,7 @@ export const prefix = [
             "text": "Chance On 10 Or More Mana Spent To Cast Lightning At A Nearby Enemy"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
 
     },
@@ -545,7 +545,7 @@ export const prefix = [
             "text": "Chance On Hit To Summon A Thorn Totem"
         },
         "tag": "Totem",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -558,7 +558,7 @@ export const prefix = [
             "text": "Chance On Kill To Refresh Random Companion Ability"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -571,7 +571,7 @@ export const prefix = [
             "text": "Chance On Melee Kill To Heal A Random Minion To Full Health"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -584,7 +584,7 @@ export const prefix = [
             "text": "Chance to Apply a Spark Charge on Melee Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -597,7 +597,7 @@ export const prefix = [
             "text": "Chance To Apply Damned On Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -610,7 +610,7 @@ export const prefix = [
             "text": "Chance To Apply Damned On Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -623,7 +623,7 @@ export const prefix = [
             "text": "Chance To Apply Frostbite on Hit with Cold Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -636,7 +636,7 @@ export const prefix = [
             "text": "Chance To Apply Frostbite On Hit With Cold Skills"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -649,7 +649,7 @@ export const prefix = [
             "text": "Chance To Apply Frostbite With Cold Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -662,7 +662,7 @@ export const prefix = [
             "text": "Chance To Bleed If Wielding An Axe"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -675,7 +675,7 @@ export const prefix = [
             "text": "Chance to Bleed on Bow Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -688,7 +688,7 @@ export const prefix = [
             "text": "Chance To Bleed on Cold Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -707,7 +707,7 @@ export const prefix = [
             "text": "Chance To Bleed On Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -720,7 +720,7 @@ export const prefix = [
             "text": "Chance to Bleed on Hit with Shurikens"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -733,7 +733,7 @@ export const prefix = [
             "text": "Chance to Bleed on Hit with Shurikens"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -746,7 +746,7 @@ export const prefix = [
             "text": "Chance To Blind With Spells"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -759,7 +759,7 @@ export const prefix = [
             "text": "Chance To Cast An Avalanche Boulder At a Nearby Enemy On Melee Attack"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -772,7 +772,7 @@ export const prefix = [
             "text": "Chance To Cast An Avalanche Boulder At a Nearby Enemy On Spell Cast"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -785,7 +785,7 @@ export const prefix = [
             "text": "Chance To Cast Divine Bolt When You Use A 0 Cost Skill"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -798,7 +798,7 @@ export const prefix = [
             "text": "Chance To Cast Elemental Nova When Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -811,7 +811,7 @@ export const prefix = [
             "text": "Chance To Cast Fire Aura On Crit (1 second cooldown)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -824,7 +824,7 @@ export const prefix = [
             "text": "Chance To Cast Fire Aura On Critical Strike (1 second cooldown"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -837,7 +837,7 @@ export const prefix = [
             "text": "Chance To Cast Fire Aura On Kill Fire Skills (1 second cooldown"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -850,7 +850,7 @@ export const prefix = [
             "text": "Chance To Cast Fire Aura On Kill With Fire Skills (1 second cooldown)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -863,7 +863,7 @@ export const prefix = [
             "text": "Chance To Cast Fire Aura When Hit (1 second cooldown)"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -876,7 +876,7 @@ export const prefix = [
             "text": "Chance To Cast Healing Nova When Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -889,7 +889,7 @@ export const prefix = [
             "text": "Chance To Cast Ice Thorns When Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -902,7 +902,7 @@ export const prefix = [
             "text": "Chance To Cast Lightning Blast When Hit While You Have Lightning Aegis"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -915,7 +915,7 @@ export const prefix = [
             "text": "Chance To Cast Maelstrom Every 5 Seconds"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -928,7 +928,7 @@ export const prefix = [
             "text": "Chance To Cast Marrow Shards When You Cast Transplant"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -941,7 +941,7 @@ export const prefix = [
             "text": "Chance To Cast Marrow Shards When You Cast Transplant"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -954,7 +954,7 @@ export const prefix = [
             "text": "Chance To Cast Poison Nova When Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -967,7 +967,7 @@ export const prefix = [
             "text": "Chance To Cast Smite When You Hit With Throwing Attacks"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -980,7 +980,7 @@ export const prefix = [
             "text": "Chance To Cast Void Rift On Kill"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -993,7 +993,7 @@ export const prefix = [
             "text": "Chance To Chill Nearby Enemies When you use a skill that costs at least 20 Mana"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1006,7 +1006,7 @@ export const prefix = [
             "text": "Chance To Chill With Necrotic Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1019,7 +1019,7 @@ export const prefix = [
             "text": "Chance to create a Shockwave on hit with Upheaval"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1032,7 +1032,7 @@ export const prefix = [
             "text": "Chance To Create A Void Essence On Kill"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1045,7 +1045,7 @@ export const prefix = [
             "text": "Chance To Create An Aftershock Under A Nearby Enemy On Melee Attack"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1058,7 +1058,7 @@ export const prefix = [
             "text": "Chance To Deal 20 Fire Damage On Hit With Shield Throw"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1071,7 +1071,7 @@ export const prefix = [
             "text": "Chance To Find Potions"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -1084,7 +1084,7 @@ export const prefix = [
             "text": "Chance To Gain 20 Ward On Kill With Hungering Souls"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1097,7 +1097,7 @@ export const prefix = [
             "text": "Chance To Gain 20 Ward On Kill With Hungering Souls"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1113,7 +1113,7 @@ export const prefix = [
             "text": "Chance To Gain 30 Ward When Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1126,7 +1126,7 @@ export const prefix = [
             "text": "Chance to gain Crimson Shroud when you use a Melee Attack that hits"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1139,7 +1139,7 @@ export const prefix = [
             "text": "Chance to gain Dusk Shroud When Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1152,7 +1152,7 @@ export const prefix = [
             "text": "Chance to gain Dusk Shroud when you use a Melee Attack that hits"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1165,7 +1165,7 @@ export const prefix = [
             "text": "Chance To Gain Haste For 3 Seconds When You Summon A Totem"
         },
         "tag": "Totem",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1178,7 +1178,7 @@ export const prefix = [
             "text": "Chance To Gain Inspiration On Kills With Void Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1191,7 +1191,7 @@ export const prefix = [
             "text": "Chance To Gain Lightning Aegis When Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1204,7 +1204,7 @@ export const prefix = [
             "text": "Chance to Ignite on Bow Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1217,7 +1217,7 @@ export const prefix = [
             "text": "Chance to Ignite on Bow Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1234,7 +1234,7 @@ export const prefix = [
             "text": "Chance To Ignite On Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1247,7 +1247,7 @@ export const prefix = [
             "text": "Chance To Ignite On Hit With Fire Skills"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1260,7 +1260,7 @@ export const prefix = [
             "text": "Chance To Ignite With Fire Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1277,7 +1277,7 @@ export const prefix = [
             "text": "Chance To Poison On Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1293,7 +1293,7 @@ export const prefix = [
             "text": "Chance To Shock On Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1306,7 +1306,7 @@ export const prefix = [
             "text": "Chance To Shock On Hit With Lightning Skills"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1319,7 +1319,7 @@ export const prefix = [
             "text": "Chance To Shock With Lightning Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1332,7 +1332,7 @@ export const prefix = [
             "text": "Chance to Shred Armour on Bow Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1345,7 +1345,7 @@ export const prefix = [
             "text": "Chance to Shred Armour on Bow Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1358,7 +1358,7 @@ export const prefix = [
             "text": "Chance to Shred Armour on Melee Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1371,7 +1371,7 @@ export const prefix = [
             "text": "Chance to Shred Armour on Melee Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1384,7 +1384,7 @@ export const prefix = [
             "text": "Chance to Shred Armour on Throwing Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1397,7 +1397,7 @@ export const prefix = [
             "text": "Chance to Shred Armour on Throwing Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1410,7 +1410,7 @@ export const prefix = [
             "text": "Chance to Slow on Bow Hit"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1423,7 +1423,7 @@ export const prefix = [
             "text": "Chance to Summon A Bee with Acid Flask"
         },
         "tag": "Self",
-        "chance": "90%",
+        "chance": 90,
         "rarity": "(Very rare)"
     },
     {
@@ -1436,7 +1436,7 @@ export const prefix = [
             "text": "Channel Cost"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1449,7 +1449,7 @@ export const prefix = [
             "text": "Cold Damage"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -1462,7 +1462,7 @@ export const prefix = [
             "text": "Cold Damage Over Time"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1475,7 +1475,7 @@ export const prefix = [
             "text": "Cold Damage Taken As Physical"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1488,7 +1488,7 @@ export const prefix = [
             "text": "Cold Penetration"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -1501,7 +1501,7 @@ export const prefix = [
             "text": "Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "20%",
+        "chance": 20,
         "rarity": "(Common)"
     },
     {
@@ -1514,7 +1514,7 @@ export const prefix = [
             "text": "Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1533,7 +1533,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1552,7 +1552,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1565,7 +1565,7 @@ export const prefix = [
             "text": "Critical Strike Chance for Totems"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1578,7 +1578,7 @@ export const prefix = [
             "text": "Critical Strike Chance With Lightning Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1591,7 +1591,7 @@ export const prefix = [
             "text": "Critical Strike Chance with Rampage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1604,7 +1604,7 @@ export const prefix = [
             "text": "Critical Strike Multiplier"
         },
         "tag": "Self",
-        "chance": "40%",
+        "chance": 40,
         "rarity": "(Uncommon)"
     },
     {
@@ -1617,7 +1617,7 @@ export const prefix = [
             "text": "Critical Strike Multiplier while dual wielding"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1630,7 +1630,7 @@ export const prefix = [
             "text": "Critical Strike Multiplier While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1649,7 +1649,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1662,7 +1662,7 @@ export const prefix = [
             "text": "Damage Dealt to Mana Before Health"
         },
         "tag": "Self",
-        "chance": "85%",
+        "chance": 85,
         "rarity": "(Very rare)"
     },
     {
@@ -1675,7 +1675,7 @@ export const prefix = [
             "text": "Damage Leeched As Health While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1688,7 +1688,7 @@ export const prefix = [
             "text": "Damage Leeched As Health While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1701,7 +1701,7 @@ export const prefix = [
             "text": "Damage Over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1714,7 +1714,7 @@ export const prefix = [
             "text": "Damage Over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1727,7 +1727,7 @@ export const prefix = [
             "text": "Damage Over Time Taken While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1740,7 +1740,7 @@ export const prefix = [
             "text": "Damage Over Time While At Low Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1753,7 +1753,7 @@ export const prefix = [
             "text": "Damage Over Time While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1766,7 +1766,7 @@ export const prefix = [
             "text": "Damage Over Time While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1779,7 +1779,7 @@ export const prefix = [
             "text": "Damage Reflected"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -1798,7 +1798,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1811,7 +1811,7 @@ export const prefix = [
             "text": "Damage Reflected to Attackers"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -1824,7 +1824,7 @@ export const prefix = [
             "text": "Damage Reflected While You Have Lightning Aegis"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -1837,7 +1837,7 @@ export const prefix = [
             "text": "Damage To Minions Reflected to Attackers"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1850,7 +1850,7 @@ export const prefix = [
             "text": "Damage While Channelling"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -1863,7 +1863,7 @@ export const prefix = [
             "text": "Damage While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1876,7 +1876,7 @@ export const prefix = [
             "text": "Dexterity"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -1892,7 +1892,7 @@ export const prefix = [
             "text": "Dodge Rating"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1905,7 +1905,7 @@ export const prefix = [
             "text": "Dodge Rating if Hit Recently"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1918,7 +1918,7 @@ export const prefix = [
             "text": "Elemental Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1931,7 +1931,7 @@ export const prefix = [
             "text": "Elemental Damage Over Time"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -1944,7 +1944,7 @@ export const prefix = [
             "text": "Endurance while channelling Warpath"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -1963,7 +1963,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "75%",
+        "chance": 75,
         "rarity": "(Very rare)"
     },
     {
@@ -1976,7 +1976,7 @@ export const prefix = [
             "text": "Fire Damage"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -1989,7 +1989,7 @@ export const prefix = [
             "text": "Fire Damage Over Time"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2002,7 +2002,7 @@ export const prefix = [
             "text": "Fire Damage Over Time"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2015,7 +2015,7 @@ export const prefix = [
             "text": "Fire Damage Taken As Physical"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2028,7 +2028,7 @@ export const prefix = [
             "text": "Fire Penetration"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -2041,7 +2041,7 @@ export const prefix = [
             "text": "Fire Penetration while wielding a dagger"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2060,7 +2060,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2079,7 +2079,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2098,7 +2098,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "80%",
+        "chance": 80,
         "rarity": "(Very rare)"
     },
     {
@@ -2114,7 +2114,7 @@ export const prefix = [
             "text": "Freeze Rate Multiplier"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2133,7 +2133,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2149,7 +2149,7 @@ export const prefix = [
             "text": "Freeze Rate Per Stack of Chill"
         },
         "tag": "Self",
-        "chance": "80%",
+        "chance": 80,
         "rarity": "(Very rare)"
     },
     {
@@ -2162,7 +2162,7 @@ export const prefix = [
             "text": "Frostbite Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2175,7 +2175,7 @@ export const prefix = [
             "text": "Harvest Damage Leeched As Health"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2188,7 +2188,7 @@ export const prefix = [
             "text": "Healing Effectiveness"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -2204,7 +2204,7 @@ export const prefix = [
             "text": "Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2217,7 +2217,7 @@ export const prefix = [
             "text": "Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2230,7 +2230,7 @@ export const prefix = [
             "text": "Health Gained on Block"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2243,7 +2243,7 @@ export const prefix = [
             "text": "Health Gained on Glancing Blow"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2256,7 +2256,7 @@ export const prefix = [
             "text": "Health Gained When Stunned"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2269,7 +2269,7 @@ export const prefix = [
             "text": "Health on Kill"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2285,7 +2285,7 @@ export const prefix = [
             "text": "Health Regeneration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2304,7 +2304,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "80%",
+        "chance": 80,
         "rarity": "(Very rare)"
     },
     {
@@ -2323,7 +2323,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2336,7 +2336,7 @@ export const prefix = [
             "text": "Increased Abyssal Decay Duration"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2349,7 +2349,7 @@ export const prefix = [
             "text": "Increased Area of mirage attacks with Lethal Mirage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2362,7 +2362,7 @@ export const prefix = [
             "text": "Increased Area of Void Cleave"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2375,7 +2375,7 @@ export const prefix = [
             "text": "Increased Area with Acid Flask"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2388,7 +2388,7 @@ export const prefix = [
             "text": "Increased Area with Acid Flask"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2401,7 +2401,7 @@ export const prefix = [
             "text": "Increased Area with Cinder Strike's First Attack"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2414,7 +2414,7 @@ export const prefix = [
             "text": "Increased Area with Cinder Strike's First Strike"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2427,7 +2427,7 @@ export const prefix = [
             "text": "Increased Area with Dancing Strikes"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2440,7 +2440,7 @@ export const prefix = [
             "text": "Increased Area with Dancing Strikes"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2453,7 +2453,7 @@ export const prefix = [
             "text": "Increased Area with Detonating Arrow"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2466,7 +2466,7 @@ export const prefix = [
             "text": "Increased Area with Detonating Arrow"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2485,7 +2485,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2498,7 +2498,7 @@ export const prefix = [
             "text": "Increased Armor Shred Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2511,7 +2511,7 @@ export const prefix = [
             "text": "Increased Armour Shred Duration"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2524,7 +2524,7 @@ export const prefix = [
             "text": "Increased Armour Shred Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2537,7 +2537,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Boar Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2550,7 +2550,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Boar Duration"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2563,7 +2563,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Lynx Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2576,7 +2576,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Lynx Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2589,7 +2589,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Shark Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2602,7 +2602,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Shark Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2615,7 +2615,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Viper Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2628,7 +2628,7 @@ export const prefix = [
             "text": "Increased Aspect Of The Viper Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2641,7 +2641,7 @@ export const prefix = [
             "text": "Increased Attack and Cast Speed for Summoned Vines"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2654,7 +2654,7 @@ export const prefix = [
             "text": "Increased Aura Of Decay Area"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2667,7 +2667,7 @@ export const prefix = [
             "text": "Increased Bleed Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2680,7 +2680,7 @@ export const prefix = [
             "text": "Increased Bleed Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2693,7 +2693,7 @@ export const prefix = [
             "text": "Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2706,7 +2706,7 @@ export const prefix = [
             "text": "Increased Cast Speed While You Have Lightning Aegis"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2719,7 +2719,7 @@ export const prefix = [
             "text": "Increased Cooldown Recovery Speed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2732,7 +2732,7 @@ export const prefix = [
             "text": "Increased Cooldown Recovery Speed for Surge"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2745,7 +2745,7 @@ export const prefix = [
             "text": "Increased Cooldown Recovery Speed While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2758,7 +2758,7 @@ export const prefix = [
             "text": "Increased crit chance with Flurry"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2771,7 +2771,7 @@ export const prefix = [
             "text": "Increased crit chance with Flurry"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2790,7 +2790,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2803,7 +2803,7 @@ export const prefix = [
             "text": "Increased Critical Strike Chance per Equipped Dagger"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2816,7 +2816,7 @@ export const prefix = [
             "text": "Increased Critical Strike Chance per Equipped Dagger"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2829,7 +2829,7 @@ export const prefix = [
             "text": "Increased Critical Strike Chance per Equipped Sword"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2842,7 +2842,7 @@ export const prefix = [
             "text": "Increased Critical Strike Chance per Equipped Sword"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2855,7 +2855,7 @@ export const prefix = [
             "text": "Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2868,7 +2868,7 @@ export const prefix = [
             "text": "Increased Damage of Skills use by Shadows"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2881,7 +2881,7 @@ export const prefix = [
             "text": "Increased damage per active Shadow with Shadow Cascade"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2894,7 +2894,7 @@ export const prefix = [
             "text": "Increased damage per active Shadow with Shadow Cascade"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2907,7 +2907,7 @@ export const prefix = [
             "text": "Increased damage per arrow with Multishot"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2920,7 +2920,7 @@ export const prefix = [
             "text": "Increased damage per arrow with Multishot"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2933,7 +2933,7 @@ export const prefix = [
             "text": "Increased damage while wielding a bow"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2946,7 +2946,7 @@ export const prefix = [
             "text": "Increased damage while wielding a dagger"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2959,7 +2959,7 @@ export const prefix = [
             "text": "Increased damage while wielding a sword"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -2978,7 +2978,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2997,7 +2997,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3010,7 +3010,7 @@ export const prefix = [
             "text": "Increased Damage with Umbral Blades per stack of Dusk Shroud"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3029,7 +3029,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3042,7 +3042,7 @@ export const prefix = [
             "text": "Increased duration with Hail of Arrows"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3055,7 +3055,7 @@ export const prefix = [
             "text": "Increased Echo Damage When A Skill Echoes"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3068,7 +3068,7 @@ export const prefix = [
             "text": "Increased Echo Damage When A Skill Echoes"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3081,7 +3081,7 @@ export const prefix = [
             "text": "Increased Elemental Nova Area"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3094,7 +3094,7 @@ export const prefix = [
             "text": "Increased Fire Aura Area"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3107,7 +3107,7 @@ export const prefix = [
             "text": "Increased Fire Aura Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3120,7 +3120,7 @@ export const prefix = [
             "text": "Increased Fire Aura Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3139,7 +3139,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3152,7 +3152,7 @@ export const prefix = [
             "text": "Increased Frostbite Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3165,7 +3165,7 @@ export const prefix = [
             "text": "Increased Frostbite Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3178,7 +3178,7 @@ export const prefix = [
             "text": "Increased Hail of Arrows Duration"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3191,7 +3191,7 @@ export const prefix = [
             "text": "Increased Hammer Throw Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3204,7 +3204,7 @@ export const prefix = [
             "text": "Increased Healing Effectiveness"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3220,7 +3220,7 @@ export const prefix = [
             "text": "Increased Healing Effectiveness"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3233,7 +3233,7 @@ export const prefix = [
             "text": "Increased Ignite Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3246,7 +3246,7 @@ export const prefix = [
             "text": "Increased Ignite Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3259,7 +3259,7 @@ export const prefix = [
             "text": "Increased Ignite Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3272,7 +3272,7 @@ export const prefix = [
             "text": "Increased Lightning Damage While You Have Lightning Aegis"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -3285,7 +3285,7 @@ export const prefix = [
             "text": "Increased Melee Damage For 4 Seconds When a Skill Echoes"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3298,7 +3298,7 @@ export const prefix = [
             "text": "Increased Minion Melee Stun Chance"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3317,7 +3317,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3330,7 +3330,7 @@ export const prefix = [
             "text": "Increased Poison Damage while Aura of Decay is active"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3343,7 +3343,7 @@ export const prefix = [
             "text": "Increased Poison Duration"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3362,7 +3362,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3381,7 +3381,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3394,7 +3394,7 @@ export const prefix = [
             "text": "Increased Shadow Daggers Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3407,7 +3407,7 @@ export const prefix = [
             "text": "Increased Shadow Daggers Effect"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3420,7 +3420,7 @@ export const prefix = [
             "text": "Increased Shield Throw Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3433,7 +3433,7 @@ export const prefix = [
             "text": "Increased Skeletal Mage Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3446,7 +3446,7 @@ export const prefix = [
             "text": "Increased Smelters Wrath Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3459,7 +3459,7 @@ export const prefix = [
             "text": "Increased Spell Crit (Doubled If You Have Over 300 Max Mana)"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3472,7 +3472,7 @@ export const prefix = [
             "text": "Increased Spell Damage Per Skeletal Mage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3489,7 +3489,7 @@ export const prefix = [
             "text": "Increased Stun Chance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3502,7 +3502,7 @@ export const prefix = [
             "text": "Increased Stun Chance With Throwing Attacks"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3518,7 +3518,7 @@ export const prefix = [
             "text": "Increased Stun Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3537,7 +3537,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -3550,7 +3550,7 @@ export const prefix = [
             "text": "Increased Void Damage For 4 Seconds When a Skill Echoes"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3569,7 +3569,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3582,7 +3582,7 @@ export const prefix = [
             "text": "Increased Warpath Area"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3598,7 +3598,7 @@ export const prefix = [
             "text": "Intelligence"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -3617,7 +3617,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3636,7 +3636,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3655,7 +3655,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3674,7 +3674,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3693,7 +3693,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3712,7 +3712,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3731,7 +3731,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3750,7 +3750,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3769,7 +3769,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3788,7 +3788,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3807,7 +3807,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3826,7 +3826,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3845,7 +3845,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3864,7 +3864,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3883,7 +3883,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3902,7 +3902,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3921,7 +3921,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3940,7 +3940,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3959,7 +3959,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3978,7 +3978,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -3997,7 +3997,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4016,7 +4016,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4035,7 +4035,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4054,7 +4054,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4073,7 +4073,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4092,7 +4092,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4111,7 +4111,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4130,7 +4130,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4149,7 +4149,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4168,7 +4168,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4187,7 +4187,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4206,7 +4206,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4225,7 +4225,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4244,7 +4244,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4263,7 +4263,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4282,7 +4282,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4301,7 +4301,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4320,7 +4320,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4339,7 +4339,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4358,7 +4358,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4377,7 +4377,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4396,7 +4396,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4415,7 +4415,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4434,7 +4434,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4453,7 +4453,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4472,7 +4472,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4491,7 +4491,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4510,7 +4510,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4529,7 +4529,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4548,7 +4548,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4567,7 +4567,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4586,7 +4586,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4605,7 +4605,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4624,7 +4624,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4643,7 +4643,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4662,7 +4662,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4681,7 +4681,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4700,7 +4700,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4719,7 +4719,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4738,7 +4738,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4757,7 +4757,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4776,7 +4776,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4795,7 +4795,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4814,7 +4814,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4833,7 +4833,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4852,7 +4852,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4871,7 +4871,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4890,7 +4890,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4909,7 +4909,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4928,7 +4928,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4947,7 +4947,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4966,7 +4966,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -4985,7 +4985,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5004,7 +5004,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5023,7 +5023,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5042,7 +5042,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5061,7 +5061,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5080,7 +5080,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5099,7 +5099,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5118,7 +5118,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5137,7 +5137,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5156,7 +5156,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5175,7 +5175,7 @@ export const prefix = [
             }
         ],
         "tag": "Totem",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5194,7 +5194,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5213,7 +5213,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5232,7 +5232,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5251,7 +5251,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5270,7 +5270,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5289,7 +5289,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5308,7 +5308,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5327,7 +5327,7 @@ export const prefix = [
             }
         ],
         "tag": "Totem",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5346,7 +5346,7 @@ export const prefix = [
             }
         ],
         "tag": "Totem",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5365,7 +5365,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5384,7 +5384,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5403,7 +5403,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5422,7 +5422,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5441,7 +5441,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5460,7 +5460,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5479,7 +5479,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5498,7 +5498,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5517,7 +5517,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5536,7 +5536,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5555,7 +5555,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5574,7 +5574,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5593,7 +5593,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5612,7 +5612,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5631,7 +5631,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5650,7 +5650,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5669,7 +5669,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5688,7 +5688,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5707,7 +5707,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5726,7 +5726,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5745,7 +5745,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "86%",
+        "chance": 86,
         "rarity": "(Very rare)"
     },
     {
@@ -5758,7 +5758,7 @@ export const prefix = [
             "text": "Lightning Critical Strike Multiplier"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -5771,7 +5771,7 @@ export const prefix = [
             "text": "Lightning Damage"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -5790,7 +5790,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5803,7 +5803,7 @@ export const prefix = [
             "text": "Lightning Damage Taken As Physical"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5816,7 +5816,7 @@ export const prefix = [
             "text": "Lightning Damage With Hammer Throw"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5829,7 +5829,7 @@ export const prefix = [
             "text": "Lightning Penetration"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -5842,7 +5842,7 @@ export const prefix = [
             "text": "Mana"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5858,7 +5858,7 @@ export const prefix = [
             "text": "Mana"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5874,7 +5874,7 @@ export const prefix = [
             "text": "Mana"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5887,7 +5887,7 @@ export const prefix = [
             "text": "Mana efficiency with Decoy"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -5900,7 +5900,7 @@ export const prefix = [
             "text": "Mana Efficiency with Synchronised Strike"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5913,7 +5913,7 @@ export const prefix = [
             "text": "Mana efficiency with Synchronised Strike"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -5926,7 +5926,7 @@ export const prefix = [
             "text": "Mana Efficiency With Void Spells"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5939,7 +5939,7 @@ export const prefix = [
             "text": "Mana Gained On Harvest Use"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -5952,7 +5952,7 @@ export const prefix = [
             "text": "Mana Gained When Transforming Back To Human Form"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -5965,7 +5965,7 @@ export const prefix = [
             "text": "Mana Gained When you directly cast Smite"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -5978,7 +5978,7 @@ export const prefix = [
             "text": "Mana Gained when you use Rive and hit at least one Enemy"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -5991,7 +5991,7 @@ export const prefix = [
             "text": "Mana Gained when you use Vengeance and hit at least one Enemy"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6004,7 +6004,7 @@ export const prefix = [
             "text": "Mana Regeneration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6017,7 +6017,7 @@ export const prefix = [
             "text": "Mana Spent Gained as Ward"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6036,7 +6036,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6049,7 +6049,7 @@ export const prefix = [
             "text": "Melee Attack Speed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6068,7 +6068,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6081,7 +6081,7 @@ export const prefix = [
             "text": "Melee Cold Damage"
         },
         "tag": "Self",
-        "chance": "25%",
+        "chance": 25,
         "rarity": "(Uncommon)"
     },
     {
@@ -6094,7 +6094,7 @@ export const prefix = [
             "text": "Melee Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "20%",
+        "chance": 20,
         "rarity": "(Common)"
     },
     {
@@ -6107,7 +6107,7 @@ export const prefix = [
             "text": "Melee Critical Strike Multiplier While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6120,7 +6120,7 @@ export const prefix = [
             "text": "Melee Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6133,7 +6133,7 @@ export const prefix = [
             "text": "Melee Damage Leeched as Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6146,7 +6146,7 @@ export const prefix = [
             "text": "Melee Damage While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6159,7 +6159,7 @@ export const prefix = [
             "text": "Melee Damage While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6172,7 +6172,7 @@ export const prefix = [
             "text": "Melee Elemental Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6185,7 +6185,7 @@ export const prefix = [
             "text": "Melee Elemental Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6198,7 +6198,7 @@ export const prefix = [
             "text": "Melee Fire Damage"
         },
         "tag": "Self",
-        "chance": "25%",
+        "chance": 25,
         "rarity": "(Uncommon)"
     },
     {
@@ -6211,7 +6211,7 @@ export const prefix = [
             "text": "Melee Lightning Damage"
         },
         "tag": "Self",
-        "chance": "25%",
+        "chance": 25,
         "rarity": "(Uncommon)"
     },
     {
@@ -6224,7 +6224,7 @@ export const prefix = [
             "text": "Melee Physical Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6243,7 +6243,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6256,7 +6256,7 @@ export const prefix = [
             "text": "Melee Physical Damage If Wielding A Blunt Weapon"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6269,7 +6269,7 @@ export const prefix = [
             "text": "Melee Physical Damage If Wielding A Sword"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6282,7 +6282,7 @@ export const prefix = [
             "text": "Melee Void Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6295,7 +6295,7 @@ export const prefix = [
             "text": "Minion Chance To Bleed On Hit"
         },
         "tag": "Minion",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6308,7 +6308,7 @@ export const prefix = [
             "text": "Minion Chance To Inflict Plague on Hit"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6321,7 +6321,7 @@ export const prefix = [
             "text": "Minion Cold Damage"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6334,7 +6334,7 @@ export const prefix = [
             "text": "Minion Critical Strike Multiplier"
         },
         "tag": "Minion",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6347,7 +6347,7 @@ export const prefix = [
             "text": "Minion Damage"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6363,7 +6363,7 @@ export const prefix = [
             "text": "Minion Dodge Rating"
         },
         "tag": "Minion",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -6376,7 +6376,7 @@ export const prefix = [
             "text": "Minion Fire Damage"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6389,7 +6389,7 @@ export const prefix = [
             "text": "Minion Freeze Rate Multiplier"
         },
         "tag": "Minion",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6405,7 +6405,7 @@ export const prefix = [
             "text": "Minion Health"
         },
         "tag": "Minion",
-        "chance": "40%",
+        "chance": 40,
         "rarity": "(Uncommon)"
     },
     {
@@ -6421,7 +6421,7 @@ export const prefix = [
             "text": "Minion Health Regen"
         },
         "tag": "Minion",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -6434,7 +6434,7 @@ export const prefix = [
             "text": "Minion Increased Cooldown Recovery Speed"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6447,7 +6447,7 @@ export const prefix = [
             "text": "Minion Increased Healing Effectiveness"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6460,7 +6460,7 @@ export const prefix = [
             "text": "Minion Melee Critical Strike Chance"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6473,7 +6473,7 @@ export const prefix = [
             "text": "Minion Melee Damage Leeched As Health"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6486,7 +6486,7 @@ export const prefix = [
             "text": "Minion Melee Damage Leeched As Health"
         },
         "tag": "Minion",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6499,7 +6499,7 @@ export const prefix = [
             "text": "Minion Spell Critical Strike Chance"
         },
         "tag": "Minion",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6518,7 +6518,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6531,7 +6531,7 @@ export const prefix = [
             "text": "Movement Speed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6544,7 +6544,7 @@ export const prefix = [
             "text": "Necrotic Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6557,7 +6557,7 @@ export const prefix = [
             "text": "Necrotic Damage Taken As Physical"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6570,7 +6570,7 @@ export const prefix = [
             "text": "Necrotic Damage While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6583,7 +6583,7 @@ export const prefix = [
             "text": "Necrotic Penetration"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -6596,7 +6596,7 @@ export const prefix = [
             "text": "Necrotic Spell Damage Per Skeletal Mage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6609,7 +6609,7 @@ export const prefix = [
             "text": "Physical Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6622,7 +6622,7 @@ export const prefix = [
             "text": "Physical Damage While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6635,7 +6635,7 @@ export const prefix = [
             "text": "Physical Penetration"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -6648,7 +6648,7 @@ export const prefix = [
             "text": "Physical Penetration while wielding a dagger"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6661,7 +6661,7 @@ export const prefix = [
             "text": "Physical penetration with Puncture"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6674,7 +6674,7 @@ export const prefix = [
             "text": "Physical penetration with Puncture"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6687,7 +6687,7 @@ export const prefix = [
             "text": "Physical Spell Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6706,7 +6706,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6719,7 +6719,7 @@ export const prefix = [
             "text": "Poison Chance per Equipped Dagger"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6732,7 +6732,7 @@ export const prefix = [
             "text": "Poison Chance per Equipped Dagger"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6745,7 +6745,7 @@ export const prefix = [
             "text": "Poison Damage"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -6764,7 +6764,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6777,7 +6777,7 @@ export const prefix = [
             "text": "Poison Damage Taken As Physical"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6790,7 +6790,7 @@ export const prefix = [
             "text": "Poison Penetration"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -6803,7 +6803,7 @@ export const prefix = [
             "text": "Potion Health Converted to Ward"
         },
         "tag": "Self",
-        "chance": "80%",
+        "chance": 80,
         "rarity": "(Very rare)"
     },
     {
@@ -6819,7 +6819,7 @@ export const prefix = [
             "text": "Potion Health Converted To Ward"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6832,7 +6832,7 @@ export const prefix = [
             "text": "Reduced Health Cost Of Spells"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6845,7 +6845,7 @@ export const prefix = [
             "text": "Reduced Health Cost Of Spells"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6858,7 +6858,7 @@ export const prefix = [
             "text": "Seconds Of Stun Immunity After Using Teleport"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6871,7 +6871,7 @@ export const prefix = [
             "text": "Seconds to Sigils of Hope Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -6890,7 +6890,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6909,7 +6909,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6928,7 +6928,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6947,7 +6947,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6966,7 +6966,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -6985,7 +6985,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7004,7 +7004,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7023,7 +7023,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7042,7 +7042,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7061,7 +7061,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7080,7 +7080,7 @@ export const prefix = [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7093,7 +7093,7 @@ export const prefix = [
             "text": "Shield Throw Damage Converted to Void"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7106,7 +7106,7 @@ export const prefix = [
             "text": "Shock Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7119,7 +7119,7 @@ export const prefix = [
             "text": "Spell Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -7132,7 +7132,7 @@ export const prefix = [
             "text": "Spell Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7151,7 +7151,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7164,7 +7164,7 @@ export const prefix = [
             "text": "Spell Damage Leeched As Health While Channelling"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7177,7 +7177,7 @@ export const prefix = [
             "text": "Spell Damage While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7190,7 +7190,7 @@ export const prefix = [
             "text": "Spell Damage While Transformed"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7203,7 +7203,7 @@ export const prefix = [
             "text": "Static Charges Generated Per Second"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7219,7 +7219,7 @@ export const prefix = [
             "text": "Strength"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7232,7 +7232,7 @@ export const prefix = [
             "text": "Stun Avoidance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7245,7 +7245,7 @@ export const prefix = [
             "text": "Throwing Attack Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7258,7 +7258,7 @@ export const prefix = [
             "text": "Throwing Attack Critical Strike Multiplier"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7271,7 +7271,7 @@ export const prefix = [
             "text": "Throwing Attack Damage"
         },
         "tag": "Self",
-        "chance": "40%",
+        "chance": 40,
         "rarity": "(Uncommon)"
     },
     {
@@ -7284,7 +7284,7 @@ export const prefix = [
             "text": "Throwing Attack Speed"
         },
         "tag": "Self",
-        "chance": "40%",
+        "chance": 40,
         "rarity": "(Uncommon)"
     },
     {
@@ -7303,7 +7303,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -7322,7 +7322,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "15%",
+        "chance": 15,
         "rarity": "(Common)"
     },
     {
@@ -7335,7 +7335,7 @@ export const prefix = [
             "text": "Throwing Physical Damage"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7348,7 +7348,7 @@ export const prefix = [
             "text": "Time Rot Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7361,7 +7361,7 @@ export const prefix = [
             "text": "Totem Adaptive Spell Damage"
         },
         "tag": "Totem",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7374,7 +7374,7 @@ export const prefix = [
             "text": "Totem Armor"
         },
         "tag": "Totem",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7387,7 +7387,7 @@ export const prefix = [
             "text": "Totem Critical Strike Chance"
         },
         "tag": "Totem",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7400,7 +7400,7 @@ export const prefix = [
             "text": "Totem Damage"
         },
         "tag": "Totem",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7413,7 +7413,7 @@ export const prefix = [
             "text": "Totem Elemental Resistance"
         },
         "tag": "Totem",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7430,7 +7430,7 @@ export const prefix = [
             "text": "Vitality"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7443,7 +7443,7 @@ export const prefix = [
             "text": "Vitality"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7456,7 +7456,7 @@ export const prefix = [
             "text": "Void Damage"
         },
         "tag": "Self",
-        "chance": "40%",
+        "chance": 40,
         "rarity": "(Uncommon)"
     },
     {
@@ -7469,7 +7469,7 @@ export const prefix = [
             "text": "Void Damage Over Time"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7482,7 +7482,7 @@ export const prefix = [
             "text": "Void Damage Taken As Physical"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7495,7 +7495,7 @@ export const prefix = [
             "text": "Void Penetration"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -7514,7 +7514,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7533,7 +7533,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7552,7 +7552,7 @@ export const prefix = [
             }
         ],
         "tag": "Self",
-        "chance": "75%",
+        "chance": 75,
         "rarity": "(Very rare)"
     },
     {
@@ -7565,7 +7565,7 @@ export const prefix = [
             "text": "Ward Gained on Kill"
         },
         "tag": "Self",
-        "chance": "90%",
+        "chance": 90,
         "rarity": "(Very rare)"
     },
     {
@@ -7582,7 +7582,7 @@ export const prefix = [
             "text": "Ward Gained On Potion Use"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -7595,7 +7595,7 @@ export const prefix = [
             "text": "Ward gained on use with Shift"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7608,7 +7608,7 @@ export const prefix = [
             "text": "Ward gained on use with Smoke Bomb"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7621,7 +7621,7 @@ export const prefix = [
             "text": "Ward gained on use with Smoke Bomb"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7634,7 +7634,7 @@ export const prefix = [
             "text": "Ward Gained When Damage Leaves You At Low Health (5 Second Cooldown)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7647,7 +7647,7 @@ export const prefix = [
             "text": "Ward Gained When You Create a Shadow"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7660,7 +7660,7 @@ export const prefix = [
             "text": "Ward Granted When Casting Flame Ward"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7676,7 +7676,7 @@ export const prefix = [
             "text": "Ward On Potion Use"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -7689,7 +7689,7 @@ export const prefix = [
             "text": "Ward Per Second"
         },
         "tag": "Self",
-        "chance": "89%",
+        "chance": 89,
         "rarity": "(Very rare)"
     },
     {
@@ -7702,7 +7702,7 @@ export const prefix = [
             "text": "Ward Retention"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     }
 ]

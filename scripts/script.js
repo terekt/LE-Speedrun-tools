@@ -24,6 +24,9 @@ prefix.sort(function (a, b) {
     return a.level - b.level;
 });
 
+suffix.map(x => x.chance = (100-x.chance)/100);
+prefix.map(x => x.chance = (100-x.chance)/100);
+
 
 var suffixBuffer = suffix;
 var prefixBuffer = prefix;
@@ -75,7 +78,7 @@ equipmentButton.addEventListener('change', function () {
 });
 
 if (prefixEnable == false && suffixEnable == false) {
-    initCharts(0, 0, 0, 0, 1);
+    initCharts1(0, 0, 0, 0, 1);
 }
 
 /* Radio button event */
@@ -165,27 +168,90 @@ function Result(levelInput) {
         console.log("Idol nbr = " + idolSort.length);
         console.log("Equipment nbr = " + equipmentSort.length);
 
-        var self = sort.filter(o => o.tag === "Self").length;
-        console.log("Self = " + self);
-        var minion = sort.filter(o => o.tag === "Minion").length;
-        console.log("Minion = " + minion);
-        var minionself = sort.filter(o => o.tag === "Minion & Self").length;
-        console.log("Minion & Self = " + minionself);
-        var totem = sort.filter(o => o.tag === "Totem").length;
-        console.log("Totem = " + totem);
+        var self = sort.filter(o => o.tag === "Self");
+        var selfWeight = 0;
+        for (let e = 0; e < self.length; e++){
+            selfWeight = selfWeight + self[e].chance;
+        }
+        selfWeight = Math.round(selfWeight * 100) / 100;
+        console.log("Self = " + self.length);
+        console.log("Self with weight = " + selfWeight);
 
-        initCharts(self, minion, minionself, totem, sort.length);
 
-        
+        var minion = sort.filter(o => o.tag === "Minion");
+        var minionWeight = 0;
+        for (let e = 0; e < minion.length; e++){
+            minionWeight = minionWeight + minion[e].chance;
+        }
+        minionWeight = Math.round(minionWeight * 100) / 100;
+        console.log("Minion = " + minion.length);
+        console.log("Minion with weight = " + minionWeight);
+
+
+        var minionself = sort.filter(o => o.tag === "Minion & Self");
+        var minionselfWeight = 0;
+        for (let e = 0; e < minionself.length; e++){
+            minionselfWeight = minionselfWeight + minionself[e].chance;
+        }
+        minionselfWeight = Math.round(minionselfWeight * 100) / 100;
+        console.log("Minion & Self = " + minionself.length);
+        console.log("Minion & Self with weight = " + minionselfWeight);
+
+
+        var totem = sort.filter(o => o.tag === "Totem");
+        var totemWeight = 0;
+        for (let e = 0; e < totem.length; e++){
+            totemWeight = totemWeight + totem[e].chance;
+        }
+        totemWeight = Math.round(totemWeight * 100) / 100;
+        console.log("Totem = " + totem.length);
+        console.log("Totem with weight = " + totemWeight);
+
+
+        var weightTotal = selfWeight + minionWeight + minionselfWeight + totemWeight;
+        console.log(weightTotal)
+
+
+        initCharts1(self, minion, minionself, totem, sort.length);
+        initCharts2(selfWeight, minionWeight, minionselfWeight, totemWeight, weightTotal);
+
+
 
     } else {
         console.log("Nothing in input")
-        initCharts(0, 0, 0, 0, 1);
+        initCharts1(0, 0, 0, 0, 1);
+        initCharts2(0, 0, 0, 0, 1);
     }
 }
 
-// Render Pie Chart
-function initCharts(self, minion, minionself, totem, sort) {
+// Render Pie Chart 1
+function initCharts1(self, minion, minionself, totem, sort) {
+    
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        
+        var data = google.visualization.arrayToDataTable([
+            ['Type', 'Affix number'],
+            ['Self', self.length],
+            ['Minion', minion.length],
+            ['Minion & Self', minionself.length],
+            ['Totem', totem.length]
+        ]);
+
+        var options = {
+            title: '',
+            legend: {position: 'right'}
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
+
+        chart.draw(data, options);
+    }
+}
+
+// Render Pie Chart 2
+function initCharts2(self, minion, minionself, totem, sort) {
     
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
@@ -204,7 +270,7 @@ function initCharts(self, minion, minionself, totem, sort) {
             legend: {position: 'right'}
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
 
         chart.draw(data, options);
     }

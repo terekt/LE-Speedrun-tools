@@ -9,7 +9,7 @@ export const  suffix =  [
             "text": "All Attributes"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -22,7 +22,7 @@ export const  suffix =  [
             "text": "All Resistances"
         },
         "tag": "Self",
-        "chance": "70%",
+        "chance": 70,
         "rarity": "(Rare)"
     },
     {
@@ -35,7 +35,7 @@ export const  suffix =  [
             "text": "All Resistances While Channelling"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -48,7 +48,7 @@ export const  suffix =  [
             "text": "Armor"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -61,7 +61,7 @@ export const  suffix =  [
             "text": "Armour"
         },
         "tag": "Self",
-        "chance": "40%",
+        "chance": 40,
         "rarity": "(Uncommon)"
     },
     {
@@ -74,7 +74,7 @@ export const  suffix =  [
             "text": "Armour"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -93,7 +93,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Self",
-        "chance": "20%",
+        "chance": 20,
         "rarity": "(Common)"
     },
     {
@@ -106,7 +106,7 @@ export const  suffix =  [
             "text": "Block Effectiveness"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -119,7 +119,7 @@ export const  suffix =  [
             "text": "Bow Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -132,7 +132,7 @@ export const  suffix =  [
             "text": "Bow Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -145,7 +145,7 @@ export const  suffix =  [
             "text": "Chance to Apply a Spark Charge on Melee Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -158,7 +158,7 @@ export const  suffix =  [
             "text": "Chance to Apply Frailty on Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -171,7 +171,7 @@ export const  suffix =  [
             "text": "Chance to Apply Frailty on Melee Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -184,7 +184,7 @@ export const  suffix =  [
             "text": "Chance To Apply Time Rot On Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -197,7 +197,7 @@ export const  suffix =  [
             "text": "Chance to Bleed on Bow Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -210,7 +210,7 @@ export const  suffix =  [
             "text": "Chance to Bleed on Hit"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -223,7 +223,7 @@ export const  suffix =  [
             "text": "Chance To Bleed on Hit While At High Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -242,7 +242,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -255,7 +255,7 @@ export const  suffix =  [
             "text": "Chance to Blind on Hit"
         },
         "tag": "Self",
-        "chance": "80%",
+        "chance": 80,
         "rarity": "(Very rare)"
     },
     {
@@ -268,7 +268,7 @@ export const  suffix =  [
             "text": "Chance To Cast Fire Aura When Hit (1 second cooldown)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -281,7 +281,7 @@ export const  suffix =  [
             "text": "Chance To Chill Attackers"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -294,7 +294,7 @@ export const  suffix =  [
             "text": "Chance to Chill on Hit"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -307,7 +307,7 @@ export const  suffix =  [
             "text": "Chance To Fear On Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -320,7 +320,7 @@ export const  suffix =  [
             "text": "Chance to Gain 20 Ward on Melee Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -333,7 +333,7 @@ export const  suffix =  [
             "text": "Chance To Gain Lightning Aegis When Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -346,7 +346,7 @@ export const  suffix =  [
             "text": "Chance to Ignite on Hit"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -359,7 +359,7 @@ export const  suffix =  [
             "text": "Chance To Ignite While At High Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -372,7 +372,7 @@ export const  suffix =  [
             "text": "Chance To Inflict Bleed On Physical Spell Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -385,7 +385,7 @@ export const  suffix =  [
             "text": "Chance to Poison on Hit"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -398,7 +398,7 @@ export const  suffix =  [
             "text": "Chance To Shock Attackers"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -411,7 +411,7 @@ export const  suffix =  [
             "text": "Chance to Shock on Hit"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -424,7 +424,7 @@ export const  suffix =  [
             "text": "Chance To Shred Armor on Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -437,7 +437,7 @@ export const  suffix =  [
             "text": "Chance To Shred Armor on Hit With Fire Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -450,7 +450,7 @@ export const  suffix =  [
             "text": "Chance To Shred Armor on Hit with Throwing Attacks"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -463,7 +463,7 @@ export const  suffix =  [
             "text": "Chance To Shred Armor on Melee Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -476,7 +476,7 @@ export const  suffix =  [
             "text": "Chance To Shred Armour on Hit"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -489,7 +489,7 @@ export const  suffix =  [
             "text": "Chance To Slow Attackers"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -502,7 +502,7 @@ export const  suffix =  [
             "text": "Chance to Slow on Bow Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -515,7 +515,7 @@ export const  suffix =  [
             "text": "Chance to Slow on Hit"
         },
         "tag": "Self",
-        "chance": "75%",
+        "chance": 75,
         "rarity": "(Very rare)"
     },
     {
@@ -528,7 +528,7 @@ export const  suffix =  [
             "text": "Chance To Slow With Void Skills"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -547,7 +547,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -560,7 +560,7 @@ export const  suffix =  [
             "text": "Cold Damage Over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -573,7 +573,7 @@ export const  suffix =  [
             "text": "Cold Resistance"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -589,7 +589,7 @@ export const  suffix =  [
             "text": "Cold Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -602,7 +602,7 @@ export const  suffix =  [
             "text": "Critical Strike Avoidance"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -621,7 +621,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -640,7 +640,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -659,7 +659,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -672,7 +672,7 @@ export const  suffix =  [
             "text": "Damage Over Time for Minions"
         },
         "tag": "Minion",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -691,7 +691,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -704,7 +704,7 @@ export const  suffix =  [
             "text": "Damage Over Time Taken"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -717,7 +717,7 @@ export const  suffix =  [
             "text": "Damage Over Time Taken While Channelling"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -736,7 +736,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -749,7 +749,7 @@ export const  suffix =  [
             "text": "Damage Taken on Block"
         },
         "tag": "Self",
-        "chance": "40%",
+        "chance": 40,
         "rarity": "(Uncommon)"
     },
     {
@@ -762,7 +762,7 @@ export const  suffix =  [
             "text": "Dodge Rating"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -775,7 +775,7 @@ export const  suffix =  [
             "text": "Dodge Rating"
         },
         "tag": "Self",
-        "chance": "60%",
+        "chance": 60,
         "rarity": "(Rare)"
     },
     {
@@ -788,7 +788,7 @@ export const  suffix =  [
             "text": "Dodge Rating if Hit Recently"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -801,7 +801,7 @@ export const  suffix =  [
             "text": "Elemental Resistance"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -814,7 +814,7 @@ export const  suffix =  [
             "text": "Elemental Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -827,7 +827,7 @@ export const  suffix =  [
             "text": "Elemental Resistance While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -840,7 +840,7 @@ export const  suffix =  [
             "text": "Endurance"
         },
         "tag": "Self",
-        "chance": "15%",
+        "chance": 15,
         "rarity": "(Common)"
     },
     {
@@ -853,7 +853,7 @@ export const  suffix =  [
             "text": "Endurance Threshold"
         },
         "tag": "Self",
-        "chance": "15%",
+        "chance": 15,
         "rarity": "(Common)"
     },
     {
@@ -866,7 +866,7 @@ export const  suffix =  [
             "text": "Fire Damage Over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -879,7 +879,7 @@ export const  suffix =  [
             "text": "Fire Damage Over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -892,7 +892,7 @@ export const  suffix =  [
             "text": "Fire Penetration With Melee Attacks"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -905,7 +905,7 @@ export const  suffix =  [
             "text": "Fire Resistance"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -921,7 +921,7 @@ export const  suffix =  [
             "text": "Fire Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -934,7 +934,7 @@ export const  suffix =  [
             "text": "Freeze Rate Multiplier"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -947,7 +947,7 @@ export const  suffix =  [
             "text": "Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -960,7 +960,7 @@ export const  suffix =  [
             "text": "Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -977,7 +977,7 @@ export const  suffix =  [
             "text": "Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -990,7 +990,7 @@ export const  suffix =  [
             "text": "Health Gained on Dodge"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1003,7 +1003,7 @@ export const  suffix =  [
             "text": "Health On Kill"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1016,7 +1016,7 @@ export const  suffix =  [
             "text": "Health On Melee Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1035,7 +1035,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1048,7 +1048,7 @@ export const  suffix =  [
             "text": "Health Regen Per Second"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1061,7 +1061,7 @@ export const  suffix =  [
             "text": "Health Regen While Transformed"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1074,7 +1074,7 @@ export const  suffix =  [
             "text": "Health Regeneration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1093,7 +1093,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Self",
-        "chance": "90%",
+        "chance": 90,
         "rarity": "(Very rare)"
     },
     {
@@ -1106,7 +1106,7 @@ export const  suffix =  [
             "text": "Increased Armour Shred Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1119,7 +1119,7 @@ export const  suffix =  [
             "text": "Increased Armour Shred Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1132,7 +1132,7 @@ export const  suffix =  [
             "text": "Increased Aspect Of The Boar Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1145,7 +1145,7 @@ export const  suffix =  [
             "text": "Increased Aspect Of The Lynx Duration"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1158,7 +1158,7 @@ export const  suffix =  [
             "text": "Increased Aspect Of The Shark Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1171,7 +1171,7 @@ export const  suffix =  [
             "text": "Increased Aspect Of The Viper Effect"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1184,7 +1184,7 @@ export const  suffix =  [
             "text": "Increased Cold Damage (Doubled If You Have Over 300 Max Mana)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1197,7 +1197,7 @@ export const  suffix =  [
             "text": "Increased Cold Damage Per Active Totem"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1210,7 +1210,7 @@ export const  suffix =  [
             "text": "Increased Cooldown Recovery Speed With Transplant"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1223,7 +1223,7 @@ export const  suffix =  [
             "text": "Increased Damage of Attacks use by Shadows"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1236,7 +1236,7 @@ export const  suffix =  [
             "text": "Increased damage while wielding a bow"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1249,7 +1249,7 @@ export const  suffix =  [
             "text": "Increased damage while wielding a dagger"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1262,7 +1262,7 @@ export const  suffix =  [
             "text": "Increased damage while wielding a sword"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1275,7 +1275,7 @@ export const  suffix =  [
             "text": "Increased Fire Damage (Doubled If You Have Over 300 Max Mana)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1288,7 +1288,7 @@ export const  suffix =  [
             "text": "Increased Leech Rate"
         },
         "tag": "Self",
-        "chance": "80%",
+        "chance": 80,
         "rarity": "(Very rare)"
     },
     {
@@ -1301,7 +1301,7 @@ export const  suffix =  [
             "text": "Increased Lightning Damage (Doubled If You Have Over 300 Max Mana)"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1314,7 +1314,7 @@ export const  suffix =  [
             "text": "Increased Minion Cooldown Recovery Speed"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1327,7 +1327,7 @@ export const  suffix =  [
             "text": "Increased Spell Damage If You Have An Active Totem"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1340,7 +1340,7 @@ export const  suffix =  [
             "text": "Increased Stun Chance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1353,7 +1353,7 @@ export const  suffix =  [
             "text": "Increased Stun Chance With Melee Attacks"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1366,7 +1366,7 @@ export const  suffix =  [
             "text": "Less Bonus Damage Taken from Critical Strikes"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1379,7 +1379,7 @@ export const  suffix =  [
             "text": "Lightning Resistance"
         },
         "tag": "Self",
-        "chance": "30%",
+        "chance": 30,
         "rarity": "(Uncommon)"
     },
     {
@@ -1395,7 +1395,7 @@ export const  suffix =  [
             "text": "Lightning Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1414,7 +1414,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1427,7 +1427,7 @@ export const  suffix =  [
             "text": "Mana efficiency with Decoy"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1440,7 +1440,7 @@ export const  suffix =  [
             "text": "Mana Spent Gained as Ward"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1453,7 +1453,7 @@ export const  suffix =  [
             "text": "Melee Cold Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1472,7 +1472,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1485,7 +1485,7 @@ export const  suffix =  [
             "text": "Melee Fire Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1498,7 +1498,7 @@ export const  suffix =  [
             "text": "Melee Lightning Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1511,7 +1511,7 @@ export const  suffix =  [
             "text": "Melee Void Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1524,7 +1524,7 @@ export const  suffix =  [
             "text": "Minion Chance To Apply Mark For Death On Hit"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1537,7 +1537,7 @@ export const  suffix =  [
             "text": "Minion Chance To Bleed On Hit"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1550,7 +1550,7 @@ export const  suffix =  [
             "text": "Minion Chance To Poison On Hit"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1563,7 +1563,7 @@ export const  suffix =  [
             "text": "Minion Critical Strike Chance"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1576,7 +1576,7 @@ export const  suffix =  [
             "text": "Minion Dodge Rating"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1589,7 +1589,7 @@ export const  suffix =  [
             "text": "Minion Melee Attack Speed"
         },
         "tag": "Minion",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1602,7 +1602,7 @@ export const  suffix =  [
             "text": "Minion Melee Damage"
         },
         "tag": "Minion",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -1615,7 +1615,7 @@ export const  suffix =  [
             "text": "Minion Physical Damage"
         },
         "tag": "Minion",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -1628,7 +1628,7 @@ export const  suffix =  [
             "text": "Minion Spell Damage"
         },
         "tag": "Minion",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -1641,7 +1641,7 @@ export const  suffix =  [
             "text": "Necrotic Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1654,7 +1654,7 @@ export const  suffix =  [
             "text": "Necrotic Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1667,7 +1667,7 @@ export const  suffix =  [
             "text": "Percent Missing Health Restored On Lunge"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1686,7 +1686,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1699,7 +1699,7 @@ export const  suffix =  [
             "text": "Physical Damage Over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1712,7 +1712,7 @@ export const  suffix =  [
             "text": "Physical Damage over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1725,7 +1725,7 @@ export const  suffix =  [
             "text": "Physical Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1742,7 +1742,7 @@ export const  suffix =  [
             "text": "Physical Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1755,7 +1755,7 @@ export const  suffix =  [
             "text": "Physical Spell Critical Strike Chance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1768,7 +1768,7 @@ export const  suffix =  [
             "text": "Poison Chance On Spell Hit"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1781,7 +1781,7 @@ export const  suffix =  [
             "text": "Poison Chance While At Low Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1794,7 +1794,7 @@ export const  suffix =  [
             "text": "Poison Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1811,7 +1811,7 @@ export const  suffix =  [
             "text": "Poison Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1833,7 +1833,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1857,7 +1857,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1879,7 +1879,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1898,7 +1898,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1922,7 +1922,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1945,7 +1945,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1964,7 +1964,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "20%",
+        "chance": 20,
         "rarity": "(Common)"
     },
     {
@@ -1977,7 +1977,7 @@ export const  suffix =  [
             "text": "Spell Cold Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -1996,7 +1996,7 @@ export const  suffix =  [
             }
         ],
         "tag": "Minion & Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2009,7 +2009,7 @@ export const  suffix =  [
             "text": "Spell Damage Leeched While Channelling"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2022,7 +2022,7 @@ export const  suffix =  [
             "text": "Spell Damage While At Low Health"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2035,7 +2035,7 @@ export const  suffix =  [
             "text": "Spell Fire Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2048,7 +2048,7 @@ export const  suffix =  [
             "text": "Spell Lightning Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2061,7 +2061,7 @@ export const  suffix =  [
             "text": "Stun Avoidance"
         },
         "tag": "Self",
-        "chance": "50%",
+        "chance": 50,
         "rarity": "(Rare)"
     },
     {
@@ -2074,7 +2074,7 @@ export const  suffix =  [
             "text": "Throwing Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2087,7 +2087,7 @@ export const  suffix =  [
             "text": "Throwing Physical Damage"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2100,7 +2100,7 @@ export const  suffix =  [
             "text": "Totem Damage"
         },
         "tag": "Totem",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2113,7 +2113,7 @@ export const  suffix =  [
             "text": "Totem Health"
         },
         "tag": "Totem",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2126,7 +2126,7 @@ export const  suffix =  [
             "text": "Void Damage Over Time"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2139,7 +2139,7 @@ export const  suffix =  [
             "text": "Void Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2152,7 +2152,7 @@ export const  suffix =  [
             "text": "Void Resistance"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2165,7 +2165,7 @@ export const  suffix =  [
             "text": "Ward Gained On Kill"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2178,7 +2178,7 @@ export const  suffix =  [
             "text": "Ward gained on use with Shift"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2191,7 +2191,7 @@ export const  suffix =  [
             "text": "Ward Gained When You Create a Shadow"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2204,7 +2204,7 @@ export const  suffix =  [
             "text": "Ward Generated Per Second"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     },
     {
@@ -2217,7 +2217,7 @@ export const  suffix =  [
             "text": "Ward Retention"
         },
         "tag": "Self",
-        "chance": "0%",
+        "chance": 0,
         "rarity": "(Common)"
     }
 ]
