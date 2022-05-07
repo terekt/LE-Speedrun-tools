@@ -54,7 +54,7 @@ prefixButton.addEventListener('change', function () {
     }
 });
 
-if (prefixEnable == false && suffixEnable == false){
+if (prefixEnable == false && suffixEnable == false) {
     initCharts(0, 0, 0, 0, 1);
 }
 
@@ -102,23 +102,23 @@ function levelChanged(e) {
 
 // Update the data
 function Result(levelInput) {
-    if (levelInput > 0 && ( suffixEnable == true || prefixEnable == true)) {
+    if (levelInput > 0 && (suffixEnable == true || prefixEnable == true)) {
 
         /* Sort and print results */
         console.log("///////////////////////////////");
         console.log("Area lvl : " + levelInput);
         console.log("///////////////////////////////");
-        if (suffixEnable == true){
+        if (suffixEnable == true) {
             var suffixSort = suffixBuffer.filter(o => o.level <= levelInput);
-        } 
-        if (suffixEnable == false){
+        }
+        if (suffixEnable == false) {
             var suffixSort = "";
         }
-        if (prefixEnable == true){
+        if (prefixEnable == true) {
             var prefixSort = prefixBuffer.filter(o => o.level <= levelInput);
             var sort = prefixSort.concat(suffixSort);
         }
-        if (prefixEnable == false){
+        if (prefixEnable == false) {
             var prefixSort = "";
             var sort = suffixSort.concat(prefixSort);
         }
@@ -145,19 +145,26 @@ function Result(levelInput) {
 // Render Pie Chart
 function initCharts(self, minion, minionself, totem, sort) {
 
-    var chart = new CanvasJS.Chart("chartContainer", {
-        data: [{
-            type: "pie",
-            startAngle: 240,
-            yValueFormatString: "#.##%",
-            indexLabel: "{label} {y}",
-            dataPoints: [
-                { y: self / sort, label: "Self" },
-                { y: minion / sort, label: "Minion" },
-                { y: minionself / sort, label: "Minion & Self" },
-                { y: totem / sort, label: "Totem" }
-            ]
-        }]
-    });
-    chart.render();
+    
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        
+        var data = google.visualization.arrayToDataTable([
+            ['Type', 'Affix number'],
+            ['Self', self],
+            ['Minion', minion],
+            ['Minion & Self', minionself],
+            ['Totem', totem]
+        ]);
+
+        var options = {
+            title: '',
+            legend: {position: 'right'}
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+    }
 }
