@@ -3,11 +3,13 @@ import { prefix } from "../data/prefix.js";
 
 var level = document.querySelector('#level');
 var suffixButton = document.querySelector("input[name=suffix-checkbox]");
+var prefixButton = document.querySelector("input[name=prefix-checkbox]");
 var levelInput = 100;
 var root = document.getElementById("results");
 var radio = document.getElementsByName("presets");
 
 var suffixEnable = true;
+var prefixEnable = true;
 
 /*Sorting the data by level */
 suffix.sort(function (a, b) {
@@ -36,9 +38,25 @@ suffixButton.addEventListener('change', function () {
     } else {
         console.log("unchecked")
         suffixEnable = false;
-        initCharts(0, 0, 0, 0, 1);
+        Result(levelInput);
     }
 });
+
+prefixButton.addEventListener('change', function () {
+    if (this.checked) {
+        console.log("checked")
+        prefixEnable = true;
+        Result(levelInput);
+    } else {
+        console.log("unchecked")
+        prefixEnable = false;
+        Result(levelInput);
+    }
+});
+
+if (prefixEnable == false && suffixEnable == false){
+    initCharts(0, 0, 0, 0, 1);
+}
 
 /* Radio button event */
 for (var i = 0; i < radio.length; i++) {
@@ -46,18 +64,23 @@ for (var i = 0; i < radio.length; i++) {
         level.value = ""; // Reset level input value
         if (this.className == "ruined-radio") {
             Result(19);
+            levelInput = 19;
         }
         if (this.className == "zerrick-radio") {
             Result(23);
+            levelInput = 23;
         }
         if (this.className == "frostroot-radio") {
             Result(34);
+            levelInput = 34;
         }
         if (this.className == "majasa-radio") {
             Result(40);
+            levelInput = 40;
         }
         if (this.className == "lvl100-radio") {
             Result(100);
+            levelInput = 100;
         }
     });
 }
@@ -79,17 +102,29 @@ function levelChanged(e) {
 
 // Update the data
 function Result(levelInput) {
-    if (levelInput > 0 && suffixEnable == true) {
+    if (levelInput > 0 && ( suffixEnable == true || prefixEnable == true)) {
 
         /* Sort and print results */
         console.log("///////////////////////////////");
         console.log("Area lvl : " + levelInput);
         console.log("///////////////////////////////");
-        var suffixSort = suffixBuffer.filter(o => o.level <= levelInput);
-        var prefixSort = prefixBuffer.filter(o => o.level <= levelInput);
+        if (suffixEnable == true){
+            var suffixSort = suffixBuffer.filter(o => o.level <= levelInput);
+        } 
+        if (suffixEnable == false){
+            var suffixSort = "";
+        }
+        if (prefixEnable == true){
+            var prefixSort = prefixBuffer.filter(o => o.level <= levelInput);
+            var sort = prefixSort.concat(suffixSort);
+        }
+        if (prefixEnable == false){
+            var prefixSort = "";
+            var sort = suffixSort.concat(prefixSort);
+        }
         console.log("Nbr of prefix = " + prefixSort.length);
         console.log("Nbr of suffix = " + suffixSort.length);
-        var sort = suffixSort.concat(prefixSort);
+        console.log(sort)
         var self = sort.filter(o => o.tag === "Self").length;
         console.log("Self = " + self);
         var minion = sort.filter(o => o.tag === "Minion").length;
